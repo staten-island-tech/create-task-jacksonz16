@@ -3,12 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>coinflip</title>
   </head>
   <body>
-    <div id="app"></div>
-    <button type="button" class="button" id="toggle-button">roll</button><br>
+    <div id="heading">
+      <h1>coinflip</h1>
+      <form id="flip">
+          <label for="options" class="selector-label">flip x amount of coins  </label>
+            <select name="options" id="options">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          <label for="options" class="selector-label"> coin.</label><br>
+        <input type="submit" value=" flip" id="flip-button">
+      </form>
+    </div>
+    <h2>You've fliped...</h2>
+    <div id="outcomes">
+    </div>
     <script type="module" src="./js/main.js"></script>
-  </body>
   </body>
 </html>
