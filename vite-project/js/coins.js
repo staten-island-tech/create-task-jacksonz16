@@ -12,3 +12,4 @@ export const coin = [
     },
    
 ]
+//An array is an array//
