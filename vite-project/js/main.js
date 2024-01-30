@@ -16,11 +16,11 @@ function flipcoin(coinfliped) {
 
 DOMselectors.flipForm.addEventListener("submit", function(event) {
   event.preventDefault();
-  DOMselectors.outcomes.innerHTML = "";
+  DOMselectors.result.innerHTML = "";
   const coinfliped = parseInt(DOMselectors.flipOptions.value);
-  const outcomes = flipcoin(coinfliped);
-  outcomes.forEach(flip => {
-    DOMselectors.outcomes.insertAdjacentHTML(
+  const result = flipcoin(coinfliped);
+  result.forEach(flip => {
+    DOMselectors.result.insertAdjacentHTML(
       "beforeend",
       `
         <div class="coin">
