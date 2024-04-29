@@ -1,7 +1,7 @@
 import '../css/style.css'
 import { DOMselectors } from './dom.js'
 import { coin } from './coins.js'
-//reminder keep it simple before it becomes a nightmare to explain 
+
 function flipcoin(coinfliped) {
   const flips = []
   for(let i = 0; i < coinfliped; i++) {
