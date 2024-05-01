@@ -47,7 +47,8 @@ DOMselectors.flipForm.addEventListener("submit", function(event) {
       "beforeend",
       `
       <div class="coin">
-      <img src="${coin.img}" class="coin-image"><br>
+      <img src="${coin.img}" class="coin-image" img alt="${coin.altext}">
+      <br>
     </div>
       `
     );
